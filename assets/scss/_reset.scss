@@ -1,0 +1,55 @@
+*{font-family: 'MinSans-Medium'; &:focus-visible{outline: none;}}
+blockquote, body, dd, dl, dt, fieldset, figure, h1, h2, h3, h4, h5, h6, hr, html, iframe, legend, li, ol, p, pre, textarea, ul {margin:0;padding:0}
+h1, h2, h3, h4, h5, h6 {font-size:100%;font-weight:400}
+ul {list-style:none}
+a{color: #000; text-decoration: none;}
+button, input, select {
+  margin:0;
+  padding: 0;
+  border: none;
+  background: none;
+  display: block;
+  &:focus-visible{
+    outline: none;
+    border-width: inherit;
+  }
+}
+html {box-sizing:border-box}
+*, :after, :before {box-sizing:inherit}
+img, video {height:auto;max-width:100%}
+iframe {border:0}
+table {border-collapse:collapse;border-spacing:0}
+td, th {padding:0}
+button, a{cursor: pointer;}
+@font-face {
+    font-family: 'MinSans-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/MinSans-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  display: block;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
